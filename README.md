@@ -7,3 +7,7 @@
 ![navbar-dropdown-reference](/images/navbar-dropdown.png)
 * The user should be able to hover over the dropdown items and receive visual feedback.
 ![navbar-item-hover](/images/navbar-item-hover.png)
+
+***
+### Alina's Live version: 
+https://alina-de.github.io/UIB-interaction-dropdown-master/

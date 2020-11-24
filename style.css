@@ -25,15 +25,15 @@ nav {
     line-height: 50px;
     vertical-align: middle;
 }
-
-nav>div:hover .button {
-    background-color: dodgerblue;
-}
-
 .button::after {
     font-family: FontAwesome; 
     content: "\f0d7";
     margin-left: 7px;
+}
+
+nav > div:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
 }
 
 /* drop-down menu - invisible by default */
@@ -46,18 +46,18 @@ nav>div:hover .button {
     padding-bottom: 5px;
 }
   
-.content>a {
+.content > a {
     color: white;
     padding: 20px 30px;
 }
 
 /* drop-down menu - visible on hovering */
-nav>div:hover .content {
+nav > div:hover .content {
     display: flex;
     flex-direction: column;
 }
 
-.content>a:hover {
+.content > a:hover {
     background-color: white;
     color: black;
 }

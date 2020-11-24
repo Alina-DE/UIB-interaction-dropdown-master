@@ -1,0 +1,63 @@
+/* my reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* my styling starts here */
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+
+    display: flex;
+}
+
+/* 3 Nav items */
+.button {
+    color: white;
+    padding: 0 30px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+nav>div:hover .button {
+    background-color: dodgerblue;
+}
+
+.button::after {
+    font-family: FontAwesome; 
+    content: "\f0d7";
+    margin-left: 7px;
+}
+
+/* drop-down menu - invisible by default */
+.content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: dodgerblue;
+    width: 100%;
+    padding-bottom: 5px;
+}
+  
+.content>a {
+    color: white;
+    padding: 20px 30px;
+}
+
+/* drop-down menu - visible on hovering */
+nav>div:hover .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content>a:hover {
+    background-color: white;
+    color: black;
+}

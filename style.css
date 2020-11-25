@@ -23,7 +23,6 @@ nav {
     color: white;
     padding: 0 30px;
     line-height: 50px;
-    vertical-align: middle;
 }
 .button::after {
     font-family: FontAwesome; 
@@ -45,10 +44,10 @@ nav > div:hover {
     width: 100%;
     padding-bottom: 5px;
 }
-  
 .content > a {
     color: white;
     padding: 20px 30px;
+    display: block;
 }
 
 /* drop-down menu - visible on hovering */
@@ -56,7 +55,6 @@ nav > div:hover .content {
     display: flex;
     flex-direction: column;
 }
-
 .content > a:hover {
     background-color: white;
     color: black;
